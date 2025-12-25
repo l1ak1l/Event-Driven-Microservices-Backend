@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Unit test / coverage
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+.hypothesis/
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Project Specific
+# (If we switched to bind mounts for data)
+postgres_data/
+kafka_data/
+zookeeper_data/
